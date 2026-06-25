@@ -1,0 +1,20 @@
+Create Database Buisness_Querry;           --I used MySQ for these querries
+use buisness_querry; 
+alter table superstoreorders rename column `sales` to sales;
+Select category,sum(sales) From superstoreorders group by category;
+Select country,sum(sales) from superstoreorders group by country order by sum(sales) desc limit 0,1000; 
+alter table superstoreorders rename column `profit` to profit;
+Select category,sum(profit) From superstoreorders group by category;
+Select region,sum(profit) from superstoreorders group by region order by sum(profit) desc;
+select product_name,sum(profit) from superstoreorders group by product_name having sum(profit)<0 order by sum(profit) asc;
+select segment,sum(profit) from superstoreorders group by segment order by sum(profit) desc;
+select customer_name,sum(sales) from superstoreorders group by customer_name order by sum(sales) desc;
+select country , sum(profit) from superstoreorders group by country order by sum(profit) desc;
+alter table superstoreorders rename column `order_priority` to order_priority;
+select order_priority,count(sales) from superstoreorders group by order_priority order by count(sales) desc;
+select order_priority,sum(profit) from superstoreorders group by order_priority order by sum(profit) desc;
+alter table superstoreorders rename column `discount` to discount;
+select category,sum(discount) from superstoreorders group by category order by sum(discount) desc;
+alter table superstoreorders rename column `shipping_cost` to shippingcost; 
+select ship_mode,sum(shippingcost) from superstoreorders group by ship_mode order by sum(shippingcost) desc;
+select ship_mode,sum(discount) from superstoreorders group by ship_mode order by sum(discount) desc;
