@@ -1,4 +1,4 @@
-Create Database Buisness_Querry;           --I used MySQ for these querries
+Create Database Buisness_Querry;           --I used MySQL workbench for these querries
 use buisness_querry; 
 alter table superstoreorders rename column `sales` to sales;
 Select category,sum(sales) From superstoreorders group by category;
