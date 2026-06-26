@@ -1,4 +1,4 @@
-# 📊 E-Commerce Sales Analysis
+# E-Commerce Sales Analysis
 
 A complete end-to-end Business & Sales Analysis project built using **Python, SQL, and Google Sheets**.
 
@@ -6,7 +6,7 @@ The objective of this project is to discover business insights from an E-Commerc
 
 ---
 
-# 🚀 Project Overview
+# Project Overview
 
 This project analyzes thousands of customer orders to answer business questions such as:
 
@@ -21,7 +21,7 @@ This project analyzes thousands of customer orders to answer business questions 
 
 ---
 
-# 🛠️ Tech Stack
+# Tech Stack
 
 - Python
 - Pandas
@@ -32,7 +32,7 @@ This project analyzes thousands of customer orders to answer business questions 
 
 ---
 
-# 📂 Project Structure
+# Project Structure
 
 ```
 E-Commerce-Sales-Analysis/
@@ -65,9 +65,9 @@ E-Commerce-Sales-Analysis/
 
 ---
 
-# 📈 Analysis Performed
+# Analysis Performed
 
-### ✔ Data Assessment
+###  Data Assessment
 
 - Dataset inspection
 - Data type verification
@@ -77,7 +77,7 @@ E-Commerce-Sales-Analysis/
 
 ---
 
-### ✔ Sales Analysis
+###  Sales Analysis
 
 - Category Performance
 - Segment Performance
@@ -89,7 +89,7 @@ E-Commerce-Sales-Analysis/
 
 ---
 
-### ✔ Profit Analysis
+###  Profit Analysis
 
 - Category Profitability
 - Product Profitability
@@ -100,7 +100,7 @@ E-Commerce-Sales-Analysis/
 
 ---
 
-### ✔ Customer Analysis
+###  Customer Analysis
 
 - Highest Revenue Customers
 - Customer Segmentation
@@ -108,7 +108,7 @@ E-Commerce-Sales-Analysis/
 
 ---
 
-### ✔ Time-Based Analysis
+###  Time-Based Analysis
 
 - Year-wise Orders
 - Most Profitable Months
@@ -116,13 +116,13 @@ E-Commerce-Sales-Analysis/
 
 ---
 
-### ✔ Shipping Analysis
+###  Shipping Analysis
 
 - Market-wise Shipping Cost
 
 ---
 
-### ✔ SQL Business Analysis
+###  SQL Business Analysis
 
 Business questions answered using SQL:
 
@@ -139,7 +139,7 @@ Business questions answered using SQL:
 
 ---
 
-# 📊 Key Business Insights
+#  Key Business Insights
 
 ## Revenue & Profit
 
@@ -199,7 +199,7 @@ SQL analysis validated several EDA findings while providing additional business 
 
 ---
 
-# 📷 Sample Visualizations
+#  Sample Visualizations
 
 ## Category Performance
 
@@ -238,18 +238,3 @@ SQL analysis validated several EDA findings while providing additional business 
 ![](SpreadSheets/Screenshot2.png)
 
 ---
-
-# 💡 Conclusion
-
-This project combines Python-based exploratory data analysis, SQL business querying, and spreadsheet reporting to transform raw transactional data into meaningful business insights.
-
-Rather than relying solely on visualizations, SQL was used to validate several findings and distinguish genuine business patterns from trends driven simply by higher order volume.
-
----
-
-# 📌 Future Improvements
-
-- Interactive Power BI Dashboard
-- Customer Segmentation using RFM Analysis
-- Sales Forecasting
-- Profit Prediction using Machine Learning
