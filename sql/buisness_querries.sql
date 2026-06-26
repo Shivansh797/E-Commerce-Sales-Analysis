@@ -1,5 +1,8 @@
-Create Database Buisness_Querry;           --I used MySQL workbench for these querries
+Create Database Buisness_Querry;
 use buisness_querry; 
+Select category,count(*) From superstoreorders group by category;
+Select segment,count(*) From superstoreorders group by segment;
+Select order_priority,count(*) From superstoreorders group by order_priority;
 alter table superstoreorders rename column `sales` to sales;
 Select category,sum(sales) From superstoreorders group by category;
 Select country,sum(sales) from superstoreorders group by country order by sum(sales) desc limit 0,1000; 
