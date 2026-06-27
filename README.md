@@ -233,8 +233,8 @@ SQL analysis validated several EDA findings while providing additional business 
 
 ## Google Sheets Pivot Tables
 
-![](Screenshot 2026-06-24 152234.png)
+![](SpreadSheets/Shot1.png)
 
-![](Screenshot 2026-06-24 161031.png)
+![](SpreadSheets/Shot2.png)
 
 ---
